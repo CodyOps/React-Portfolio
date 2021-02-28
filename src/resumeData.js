@@ -20,3 +20,19 @@ let resumeData = {
       "aboutme":"My name is Cody and I am currently a student in the full stack software development program at the University of Denver.",
       "address":"Colorado",
       "website":"https://codyops.github.io",
+      "education":[
+        {
+          "UniversityName":"The University of Colorado Bouler",
+          "specialization":"Integrative Physiology",
+          "MonthOfGrad":"May",
+          "YearOfGrad":"2018",
+          "Achievements":"Summa Cum Laude"
+        },
+        {
+          "UniversityName":"University of Denver",
+          "specialization":"Full Stack Developer",
+          "MonthOfGrad":"March",
+          "YearOfGrad":"2021",
+          "Achievements":"MERN Developer"
+        }
+      ],
