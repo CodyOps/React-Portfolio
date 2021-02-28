@@ -17,3 +17,6 @@ let resumeData = {
           "className":"fa fa-github"
         },
       ],
+      "aboutme":"My name is Cody and I am currently a student in the full stack software development program at the University of Denver.",
+      "address":"Colorado",
+      "website":"https://codyops.github.io",
