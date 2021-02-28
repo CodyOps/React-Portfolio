@@ -52,3 +52,37 @@ let resumeData = {
           "Achievements":"Some Achievements"
         }
       ],
+      "skillsDescription":"My skills are Front and Back End Development.",
+      "skills":[
+        {
+          "skillname":"HTML5"
+        },
+        {
+          "skillname":"CSS"
+        },
+        {
+          "skillname":"Javascript"
+        },
+        {
+            "skillname":"Node.js"
+          },
+          {
+            "skillname":"Express.js"
+          },
+          {
+            "skillname":"MySQL"
+          },
+          {
+            "skillname":"Sequelize.js"
+          },
+          {
+            "skillname":"MongoDB"
+          },
+          {
+            "skillname":"Mongoose ORM"
+          },
+          {
+            "skillname":"React.js"
+          },
+
+      ],
