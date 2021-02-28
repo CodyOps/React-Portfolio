@@ -34,3 +34,5 @@ const About = (props) => {
     </section>
   );
 };
+
+export default About;
