@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
