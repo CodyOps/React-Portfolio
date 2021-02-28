@@ -21,6 +21,16 @@ const Portfolio = (props) => {
                       <div className="portfolio-item-meta">
                         <h5>Project 1</h5>
                         <p>Weather Application</p>
+                        <h5>Project 2</h5>
+                        <p>Weather Application</p>
+                        <h5>Project 3</h5>
+                        <p>Weather Application</p>
+                        <h5>Project 4</h5>
+                        <p>Weather Application</p>
+                        <h5>Project 5</h5>
+                        <p>Weather Application</p>
+                        <h5>Project 6</h5>
+                        <p>Weather Application</p>
                       </div>
                     </div>
                   </a>

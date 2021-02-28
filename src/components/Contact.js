@@ -13,10 +13,12 @@ const Contact = (props) => {
             </p>
           </div>
         </div>
+        <br></br>
         <div className="row">
           <aside className="eigth columns footer-widgets">
             <div className="widget">
               <h4>LinkedIn: Cody Chen</h4>
+              <h4>Email: Codychen1@gmail.com</h4>
             </div>
           </aside>
         </div>
