@@ -86,3 +86,25 @@ let resumeData = {
           },
 
       ],
+      "portfolio":[
+        {
+          "name":"project1",
+          "description":"mobileapp",
+          "imgurl":"images/portfolio/weather.jpg"
+        },
+        {
+          "name":"project2",
+          "description":"mobileapp",
+          "imgurl":"images/portfolio/cat.jpg"
+        },
+        {
+          "name":"project3",
+          "description":"mobileapp",  
+          "imgurl":""
+        },
+        {
+          "name":"project4",
+          "description":"mobileapp",
+          "imgurl":""
+        }
+      ],
