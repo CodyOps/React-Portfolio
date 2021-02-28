@@ -46,9 +46,9 @@ const Header = (props) => {
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">I am Cody Chen.</h1>
-              <h3 style={{ color: "#fff" }}>
+              <ul style={{ color: "#fff" }}>
                 I am a {resumeData.role}.{resumeData.roleDescription}
-              </h3>
+              </ul>
               <hr />
               <ul className="social">
                 {resumeData.socialLinks &&

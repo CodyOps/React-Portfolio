@@ -14,12 +14,25 @@ function App() {
     <Router>
       <div className="App">
         <NavTabs />
-        <Header resumeData={resumeData} />
+        <Route exact path="/about" component={About} resumeData={resumeData} />
+        <Route
+          exact
+          path="/contact"
+          component={Contact}
+          resumeData={resumeData}
+        />
+        <Route
+          path="/portfolio"
+          component={Portfolio}
+          resumeData={resumeData}
+        />
+        <Route path="/resume" component={Resume} resumeData={resumeData} />
+        {/* <Header resumeData={resumeData} />
         <About resumeData={resumeData} />
         <Resume resumeData={resumeData} />
         <Portfolio resumeData={resumeData} />
         <Contact resumeData={resumeData} />
-        <Footer resumeData={resumeData} />
+        <Footer resumeData={resumeData} /> */}
       </div>
     </Router>
   );

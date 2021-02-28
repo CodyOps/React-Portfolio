@@ -8,26 +8,26 @@ const About = (props) => {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img
+            {/* <img
               className="profile-pic"
               src="images/profilepic.jpg"
               alt="Image of me in Honolulu, Hawaii"
-            />
+            /> */}
           </div>
 
           <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>{resumeData.aboutme}</p>
+            <p>I am a full stack developer student.</p>
 
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
-                  <span>{resumeData.name}</span>
+                  <span>Cody</span>
                   <br></br>
-                  <span>{resumeData.address}</span>
+                  <span>Denver, Colorado</span>
                   <br></br>
-                  <span>{resumeData.website}</span>
+                  <span>CodyOps</span>
                 </p>
               </div>
             </div>
