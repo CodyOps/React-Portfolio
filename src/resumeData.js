@@ -23,16 +23,32 @@ let resumeData = {
       "education":[
         {
           "UniversityName":"The University of Colorado Bouler",
-          "specialization":"Integrative Physiology",
+          "Specialization":"Integrative Physiology",
           "MonthOfGrad":"May",
           "YearOfGrad":"2018",
           "Achievements":"Summa Cum Laude"
         },
         {
           "UniversityName":"University of Denver",
-          "specialization":"Full Stack Developer",
+          "Specialization":"Full Stack Developer",
           "MonthOfGrad":"March",
           "YearOfGrad":"2021",
           "Achievements":"MERN Developer"
+        }
+      ],
+      "work":[
+        {
+          "CompanyName":"Company One",
+          "Specialization":"Some specialization",
+          "MonthOfLeaving":"Jan",
+          "YearOfLeaving":"2021",
+          "Achievements":"Some Achievements"
+        },
+        {
+          "CompanyName":"Company Two",
+          "Specialization":"Some specialization",
+          "MonthOfLeaving":"Jan",
+          "YearOfLeaving":"2021",
+          "Achievements":"Some Achievements"
         }
       ],
