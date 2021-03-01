@@ -15,10 +15,7 @@ function App() {
   return (
     <div className="demo-big-content">
       <NavTabs />
-
-      <div className="page-content">
-        <Main />
-      </div>
+      <Main />
     </div>
   );
 }

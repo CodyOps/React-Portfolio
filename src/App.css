@@ -1,20 +1,20 @@
 .navbar-color {
   background: #5433ff;
-  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
-  background: linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, orange);
+  background: linear-gradient(to right, #a5fecb, #20bdff, orange);
 }
 
 .navbar-color1 {
   background: #5433ff;
-  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
-  background: linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, orange);
+  background: linear-gradient(to right, #a5fecb, #20bdff, orange);
   border-radius: 3rem;
 }
 
 .landing-grid {
   background: #5433ff;
-  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
-  background: linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, orange);
+  background: linear-gradient(to right, #a5fecb, #20bdff, orange);
   text-align: center;
   position: fixed;
   top: 64px;

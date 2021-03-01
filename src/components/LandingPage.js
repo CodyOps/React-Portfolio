@@ -7,7 +7,7 @@ const LandingPage = () => {
       <Grid className="landing-grid">
         <Cell col={12}>
           <img
-            src="https://github.com/account"
+            src="public/images/IMG_1725.PNG"
             alt="profilepic"
             className="profile-image"
           />
@@ -18,7 +18,7 @@ const LandingPage = () => {
 
             <p>
               HTML/CSS | Bootstrap |JavaScript | jQuery | Node.js | React.js |
-              Express.js | MongoDB | Mongoose ORM | MySQL | Sequelize.js |
+              Express.js | MongoDB | Mongoose ORM | MySQL | Sequelize.js
             </p>
             <div className="media-links">
               <a

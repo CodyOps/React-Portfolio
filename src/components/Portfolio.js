@@ -20,17 +20,17 @@ const Portfolio = (props) => {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Project 1</h5>
-                        <p>Weather Application</p>
+                        <p>Weather and Webcam Application</p>
                         <h5>Project 2</h5>
-                        <p>Weather Application</p>
+                        <p>React User Directory</p>
                         <h5>Project 3</h5>
-                        <p>Weather Application</p>
+                        <p>Progressive Budget Tracker</p>
                         <h5>Project 4</h5>
-                        <p>Weather Application</p>
+                        <p>Fitness Tracker</p>
                         <h5>Project 5</h5>
-                        <p>Weather Application</p>
+                        <p>Employee Management System</p>
                         <h5>Project 6</h5>
-                        <p>Weather Application</p>
+                        <p>Cat Adoption Application</p>
                       </div>
                     </div>
                   </a>
