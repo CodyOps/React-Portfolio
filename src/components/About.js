@@ -1,41 +1,30 @@
 import React from "react";
-import Header from "./Header";
 import { Container } from "semantic-ui-react";
+import { Grid, Cell } from "react-mdl";
 
 const About = (props) => {
-  let resumeData = props.resumeData;
   return (
-    <Container>
-      <section id="about">
-        <div className="row">
-          <div className="three columns">
-            {/* <img
-              className="profile-pic"
-              src="images/profilepic.jpg"
-              alt="Image of me in Honolulu, Hawaii"
-            /> */}
-          </div>
-
-          <div className="nine columns main-col">
-            <h2>About Me</h2>
-            <p>I am a full stack developer student.</p>
-
-            <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>Cody</span>
-                  <br></br>
-                  <span>Denver, Colorado</span>
-                  <br></br>
-                  <span>CodyOps</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </Container>
+    <div
+      className="aboutBackground"
+      style={{ width: "100%", margin: "auto", paddingTop: "1rem" }}
+    >
+      <div className="container">
+        <Grid className="demo-grid-2">
+          <Cell
+            className="navbar-color1"
+            style={{
+              padding: "5%",
+              margin: "5%",
+              fontSize: "18px",
+            }}
+            col={4}
+          >
+            <h3>About Me</h3>
+            Lorem ipsum.
+          </Cell>
+        </Grid>
+      </div>
+    </div>
   );
 };
 

@@ -6,6 +6,9 @@ import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "semantic-ui-css/semantic.min.css";
 
-ReactDOM.render(<BrowserRouter>
+ReactDOM.render(
+  <BrowserRouter>
     <App />
-  </BrowserRouter>,, document.getElementById("root"));
+  </BrowserRouter>,
+  document.getElementById("root")
+);

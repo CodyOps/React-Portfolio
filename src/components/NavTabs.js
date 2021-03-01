@@ -1,60 +1,21 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Link } from "react-router-dom";
+import LandingPage from "./LandingPage";
 
 function NavTabs() {
-  const location = useLocation();
-
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <Link
-          to="/"
-          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
-        >
-          Home
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/about"
-          className={
-            location.pathname === "/about" ? "nav-link active" : "nav-link"
-          }
-        >
-          About
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/contact"
-          className={
-            location.pathname === "/blog" ? "nav-link active" : "nav-link"
-          }
-        >
-          Contact
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/portfolio"
-          className={
-            location.pathname === "/portfolio" ? "nav-link active" : "nav-link"
-          }
-        >
-          Portfolio
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/resume"
-          className={
-            location.pathname === "/resume" ? "nav-link active" : "nav-link"
-          }
-        >
-          Resume
-        </Link>
-      </li>
-    </ul>
+    <div className="demo-big-content">
+      <Header className="navbar-color" title="Cody Chen" scroll>
+        <Navigation>
+          <Link to="/">Home Page</Link>
+          <Link to="/about">About Me</Link>
+          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/resume">Resume</Link>
+          <Link to="/contact">Contact</Link>
+        </Navigation>
+      </Header>
+    </div>
   );
 }
 

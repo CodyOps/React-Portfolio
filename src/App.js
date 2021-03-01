@@ -8,11 +8,13 @@ import Footer from "./components/Footer";
 import resumeData from "./resumeData";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
+import Main from "./components/Main";
+import "./App.css";
 
 function App() {
   return (
     <div className="demo-big-content">
-      <Navbar />
+      <NavTabs />
 
       <div className="page-content">
         <Main />
