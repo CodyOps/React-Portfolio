@@ -19,9 +19,13 @@ React Portfolio
 
 _Quick description about this project_
 
+This application was built using React.js to create a portfolio page with pages about me, contact information, portfolio projects and resume.
+
 ## User Story
 
 _User Story for this Project:_
+
+As a user I would like to have a portfolio page that is dynamic and displays an about me page, contact page, projects page and a resume page.
 
 ## Heroku
 
