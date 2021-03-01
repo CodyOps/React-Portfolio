@@ -11,30 +11,13 @@ import NavTabs from "./components/NavTabs";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NavTabs />
-        <Route exact path="/about" component={About} resumeData={resumeData} />
-        <Route
-          exact
-          path="/contact"
-          component={Contact}
-          resumeData={resumeData}
-        />
-        <Route
-          path="/portfolio"
-          component={Portfolio}
-          resumeData={resumeData}
-        />
-        <Route path="/resume" component={Resume} resumeData={resumeData} />
-        {/* <Header resumeData={resumeData} />
-        <About resumeData={resumeData} />
-        <Resume resumeData={resumeData} />
-        <Portfolio resumeData={resumeData} />
-        <Contact resumeData={resumeData} />
-        <Footer resumeData={resumeData} /> */}
+    <div className="demo-big-content">
+      <Navbar />
+
+      <div className="page-content">
+        <Main />
       </div>
-    </Router>
+    </div>
   );
 }
 
